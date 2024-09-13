@@ -1,0 +1,15 @@
+import java.lang.*;
+import java.util.*;
+class Three_digit{
+    public static void main(String[] args) {
+        System.out.println("Enter a three digit number");
+        Scanner kali=new Scanner(System.in);
+        int a=kali.nextInt();
+        if (a>99 && a<1000){
+            System.out.println("It is a Three digit number");
+
+        }else{
+            System.out.println("It ia not a Three digit number");
+        }
+    }
+}
